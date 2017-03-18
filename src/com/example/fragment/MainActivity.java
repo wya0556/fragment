@@ -43,7 +43,7 @@ public class MainActivity extends Activity  {
 			@Override
 			public boolean onTouch(View v, MotionEvent event) {
 				// TODO 自动生成的方法存根
-				int x=(int)event.getX();
+				int x=(int)event.getX()+1;
 				int y=(int)event.getY();
 				Toast.makeText(getApplicationContext(),"("+x+","+y+")",Toast.LENGTH_SHORT).show();
 				return true;
